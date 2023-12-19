@@ -1,6 +1,6 @@
 {
-  "name": "@nestjs/apollo",
-  "version": "12.0.11",
+  "name": "@nighkali/apollo",
+  "version": "1.0.0",
   "description": "Nest - modern, fast, powerful node.js web framework (@apollo)",
   "author": "Kamil Mysliwiec",
   "license": "MIT",
@@ -9,17 +9,20 @@
   "files": [
     "dist"
   ],
-  "homepage": "https://github.com/nestjs/graphql#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "homepage": "https://github.com/nighkali/graphql#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nestjs/graphql.git"
+    "url": "git+https://github.com/nighkali/graphql.git"
   },
   "scripts": {
     "test:e2e": "jest --config ./tests/jest-e2e.ts --runInBand",
     "test:e2e:dev": "jest --config ./tests/jest-e2e.ts --runInBand --watch"
   },
   "bugs": {
-    "url": "https://github.com/nestjs/graphql/issues"
+    "url": "https://github.com/nighkali/graphql/issues"
   },
   "devDependencies": {
     "@apollo/gateway": "2.3.3",
@@ -48,7 +51,7 @@
     "@as-integrations/fastify": "^1.3.0 || ^2.0.0",
     "@nestjs/common": "^9.3.8 || ^10.0.0",
     "@nestjs/core": "^9.3.8 || ^10.0.0",
-    "@nestjs/graphql": "^12.0.0",
+    "@nighkali/graphql": "1.0.0",
     "graphql": "^16.6.0"
   },
   "peerDependenciesMeta": {
