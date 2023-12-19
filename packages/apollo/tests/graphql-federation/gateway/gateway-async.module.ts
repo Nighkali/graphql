@@ -1,5 +1,5 @@
 import { Module } from '@nestjs/common';
-import { GraphQLModule } from '@nestjs/graphql';
+import { GraphQLModule } from '@nighkali/graphql';
 import { ApolloGatewayDriver } from '../../../lib/drivers';
 import { ApolloGatewayDriverConfig } from '../../../lib/interfaces';
 import { ConfigModule } from './config/config.module';

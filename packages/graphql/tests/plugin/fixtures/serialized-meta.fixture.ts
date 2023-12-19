@@ -6,7 +6,7 @@ export default async () => {
     )
   };
   return {
-    '@nestjs/graphql': {
+    '@nighkali/graphql': {
       models: [
         [
           import('./recipes/dto/new-recipe.input'),

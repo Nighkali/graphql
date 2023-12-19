@@ -1,5 +1,5 @@
 import { loadPackage } from '@nestjs/common/utils/load-package.util';
-import { BuildFederatedSchemaOptions, transformSchema } from '@nestjs/graphql';
+import { BuildFederatedSchemaOptions, transformSchema } from '@nighkali/graphql';
 import { buildASTSchema, GraphQLSchema, isObjectType } from 'graphql';
 
 export function buildMercuriusFederatedSchema({

@@ -1,6 +1,6 @@
 import { ApolloServer } from '@apollo/server';
 import { INestApplication } from '@nestjs/common';
-import { GraphQLModule } from '@nestjs/graphql';
+import { GraphQLModule } from '@nighkali/graphql';
 import { Test } from '@nestjs/testing';
 import { gql } from 'graphql-tag';
 import { ApolloFederationDriver } from '../../lib';

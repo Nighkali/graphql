@@ -1,4 +1,4 @@
-import { createUnionType } from '@nestjs/graphql';
+import { createUnionType } from '@nighkali/graphql';
 import { Post } from '../posts/post.entity';
 import { User } from '../users/user.entity';
 

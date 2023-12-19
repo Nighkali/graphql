@@ -1,5 +1,5 @@
 import { ArgumentsHost, Catch, UnauthorizedException } from '@nestjs/common';
-import { GqlExceptionFilter } from '@nestjs/graphql';
+import { GqlExceptionFilter } from '@nighkali/graphql';
 
 @Catch(UnauthorizedException)
 export class UnauthorizedFilter implements GqlExceptionFilter {

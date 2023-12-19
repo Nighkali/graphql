@@ -1,4 +1,4 @@
-import { Parent, ResolveField, Resolver } from '@nestjs/graphql';
+import { Parent, ResolveField, Resolver } from '@nighkali/graphql';
 import { PostService } from '../posts/post.service';
 import { User } from './user.entity';
 

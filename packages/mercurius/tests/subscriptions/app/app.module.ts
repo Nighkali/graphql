@@ -1,6 +1,6 @@
 import { LoggerService, Module } from '@nestjs/common';
 import { DynamicModule } from '@nestjs/common/interfaces';
-import { GraphQLModule } from '@nestjs/graphql';
+import { GraphQLModule } from '@nighkali/graphql';
 import { MercuriusDriverConfig } from '../../../lib';
 import { MercuriusDriver } from '../../../lib/drivers';
 import { NotificationModule } from './notification.module';

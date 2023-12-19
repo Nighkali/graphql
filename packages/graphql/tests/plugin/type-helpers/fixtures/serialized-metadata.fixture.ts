@@ -1,5 +1,5 @@
 export const SERIALIZED_METADATA = {
-  '@nestjs/graphql': {
+  '@nighkali/graphql': {
     models: [
       [
         import('./base-type.fixture'),

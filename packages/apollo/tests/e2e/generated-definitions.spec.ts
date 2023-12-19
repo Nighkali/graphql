@@ -2,7 +2,7 @@ import { INestApplication } from '@nestjs/common';
 import {
   GraphQLFactory,
   GraphQLFederationDefinitionsFactory,
-} from '@nestjs/graphql';
+} from '@nighkali/graphql';
 import { Test } from '@nestjs/testing';
 import * as fs from 'fs';
 import * as path from 'path';

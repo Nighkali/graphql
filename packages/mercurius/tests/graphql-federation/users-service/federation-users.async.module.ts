@@ -1,5 +1,5 @@
 import { Module } from '@nestjs/common';
-import { GraphQLModule } from '@nestjs/graphql';
+import { GraphQLModule } from '@nighkali/graphql';
 import { MercuriusFederationDriver } from '../../../lib/drivers';
 import { ConfigModule } from './config/config.module';
 import { ConfigService } from './config/config.service';

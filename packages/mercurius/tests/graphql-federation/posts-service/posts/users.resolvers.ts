@@ -1,4 +1,4 @@
-import { ResolveField, Resolver } from '@nestjs/graphql';
+import { ResolveField, Resolver } from '@nighkali/graphql';
 import { PostsService } from './posts.service';
 @Resolver('User')
 export class UsersResolvers {

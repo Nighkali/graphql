@@ -1,7 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import { loadPackage } from '@nestjs/common/utils/load-package.util';
 import { ModulesContainer } from '@nestjs/core';
-import { extend, GraphQLFederationFactory } from '@nestjs/graphql';
+import { extend, GraphQLFederationFactory } from '@nighkali/graphql';
 import { GraphQLSchema } from 'graphql';
 import { ApolloDriverConfig } from '../interfaces';
 import { PluginsExplorerService } from '../services/plugins-explorer.service';

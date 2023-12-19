@@ -1,4 +1,4 @@
-import { ID, ResolveField, Resolver, Parent } from '@nestjs/graphql';
+import { ID, ResolveField, Resolver, Parent } from '@nighkali/graphql';
 import { Ingredient } from './models/ingredient';
 
 @Resolver((of) => Ingredient)

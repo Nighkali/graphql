@@ -4,7 +4,7 @@ import {
   extend,
   GqlSubscriptionService,
   SubscriptionConfig,
-} from '@nestjs/graphql';
+} from '@nighkali/graphql';
 import { printSchema } from 'graphql';
 import { ApolloDriverConfig } from '../interfaces';
 import { PluginsExplorerService } from '../services/plugins-explorer.service';

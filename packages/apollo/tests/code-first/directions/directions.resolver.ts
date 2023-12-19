@@ -1,4 +1,4 @@
-import { Args, Query, Resolver } from '@nestjs/graphql';
+import { Args, Query, Resolver } from '@nighkali/graphql';
 import { Direction } from '../enums/direction.enum';
 
 @Resolver()

@@ -4,7 +4,7 @@ import { isFilenameMatched } from '../utils/is-filename-matched.util';
 import { ModelClassVisitor } from './model-class.visitor';
 
 export class ReadonlyVisitor {
-  public readonly key = '@nestjs/graphql';
+  public readonly key = '@nighkali/graphql';
   private readonly modelClassVisitor = new ModelClassVisitor();
 
   get typeImports() {

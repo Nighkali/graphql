@@ -1,4 +1,4 @@
-import { Directive, Field, ID, ObjectType } from '@nestjs/graphql';
+import { Directive, Field, ID, ObjectType } from '@nighkali/graphql';
 
 @ObjectType()
 @Directive('@key(fields: "id")')

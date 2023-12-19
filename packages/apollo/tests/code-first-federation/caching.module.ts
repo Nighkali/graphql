@@ -1,7 +1,7 @@
 import responseCachePlugin from '@apollo/server-plugin-response-cache';
 import { ApolloServerPluginInlineTraceDisabled } from '@apollo/server/plugin/disabled';
 import { Module } from '@nestjs/common';
-import { GraphQLModule } from '@nestjs/graphql';
+import { GraphQLModule } from '@nighkali/graphql';
 import {
   DirectiveLocation,
   GraphQLBoolean,

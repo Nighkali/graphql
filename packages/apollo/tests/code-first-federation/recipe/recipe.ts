@@ -4,7 +4,7 @@ import {
   ID,
   InterfaceType,
   ObjectType,
-} from '@nestjs/graphql';
+} from '@nighkali/graphql';
 
 @InterfaceType()
 export abstract class Base {

@@ -1,8 +1,8 @@
 import {
   GraphQLSchemaBuilderModule,
   GraphQLSchemaFactory,
-} from '@nestjs/graphql';
-import { GRAPHQL_SDL_FILE_HEADER } from '@nestjs/graphql/graphql.constants';
+} from '@nighkali/graphql';
+import { GRAPHQL_SDL_FILE_HEADER } from '@nighkali/graphql/graphql.constants';
 import { Test } from '@nestjs/testing';
 import {
   GraphQLSchema,

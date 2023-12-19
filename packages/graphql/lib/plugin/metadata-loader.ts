@@ -8,7 +8,7 @@ export class MetadataLoader {
   }
 
   async load(metadata: Record<string, any>) {
-    const pkgMetadata = metadata['@nestjs/graphql'];
+    const pkgMetadata = metadata['@nighkali/graphql'];
     if (!pkgMetadata) {
       return;
     }

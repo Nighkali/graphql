@@ -1,4 +1,4 @@
-import { Resolver, Query, Context } from '@nestjs/graphql';
+import { Resolver, Query, Context } from '@nighkali/graphql';
 
 @Resolver()
 export class CustomContextResolver {

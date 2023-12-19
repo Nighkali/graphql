@@ -1,4 +1,4 @@
-import { Args, Query, Resolver, ResolveReference } from '@nestjs/graphql';
+import { Args, Query, Resolver, ResolveReference } from '@nighkali/graphql';
 import { FederationSearchResultUnion } from '../unions/search-result.union';
 import { User } from '../users/user.entity';
 import { Post } from './post.entity';

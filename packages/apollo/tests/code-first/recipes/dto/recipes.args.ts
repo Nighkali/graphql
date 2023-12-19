@@ -1,4 +1,4 @@
-import { ArgsType, Field, Int } from '@nestjs/graphql';
+import { ArgsType, Field, Int } from '@nighkali/graphql';
 import { Max, Min } from 'class-validator';
 @ArgsType()
 export class RecipesArgs {

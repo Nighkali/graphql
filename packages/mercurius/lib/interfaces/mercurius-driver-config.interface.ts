@@ -2,7 +2,7 @@ import {
   GqlModuleAsyncOptions,
   GqlModuleOptions,
   GqlOptionsFactory,
-} from '@nestjs/graphql';
+} from '@nighkali/graphql';
 import { MercuriusOptions } from 'mercurius';
 import { MercuriusHooks } from './mercurius-hook.interface';
 import { MercuriusPlugins } from './mercurius-plugin.interface';

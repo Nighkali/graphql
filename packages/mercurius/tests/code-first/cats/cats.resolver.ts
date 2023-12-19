@@ -1,4 +1,4 @@
-import { Query, Resolver } from '@nestjs/graphql';
+import { Query, Resolver } from '@nighkali/graphql';
 
 @Resolver()
 export class CatsResolver {

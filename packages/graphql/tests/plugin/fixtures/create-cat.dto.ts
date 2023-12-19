@@ -1,5 +1,5 @@
 export const createCatDtoText = `
-import * as gql from "@nestjs/graphql";
+import * as gql from "@nighkali/graphql";
 
 enum Status {
     ENABLED,
@@ -72,7 +72,7 @@ export class CreateCatArgs {
 }
 `;
 
-export const createCatDtoTextTranspiled = `import * as gql from \"@nestjs/graphql\";
+export const createCatDtoTextTranspiled = `import * as gql from \"@nighkali/graphql\";
 var Status;
 (function (Status) {
     Status[Status[\"ENABLED\"] = 0] = \"ENABLED\";

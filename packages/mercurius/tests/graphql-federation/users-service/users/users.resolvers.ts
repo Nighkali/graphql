@@ -1,4 +1,4 @@
-import { Args, Query, Resolver, ResolveReference } from '@nestjs/graphql';
+import { Args, Query, Resolver, ResolveReference } from '@nighkali/graphql';
 import { UsersService } from './users.service';
 @Resolver('User')
 export class UsersResolvers {

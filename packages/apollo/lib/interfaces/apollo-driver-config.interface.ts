@@ -4,7 +4,7 @@ import {
   GqlModuleOptions,
   GqlOptionsFactory,
   SubscriptionConfig,
-} from '@nestjs/graphql';
+} from '@nighkali/graphql';
 
 export interface ServerRegistration {
   /**

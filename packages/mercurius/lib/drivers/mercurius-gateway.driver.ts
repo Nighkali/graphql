@@ -1,5 +1,5 @@
 import mercuriusGateway from '@mercuriusjs/gateway';
-import { AbstractGraphQLDriver } from '@nestjs/graphql';
+import { AbstractGraphQLDriver } from '@nighkali/graphql';
 import { FastifyBaseLogger, FastifyInstance } from 'fastify';
 import { IncomingMessage, Server, ServerResponse } from 'http';
 import { MercuriusGatewayDriverConfig } from '../interfaces';

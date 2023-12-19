@@ -22,14 +22,14 @@
 
 [GraphQL](https://graphql.org/) is a powerful query language for APIs and a runtime for fulfilling those queries with your existing data. It's an elegant approach that solves many problems typically found with REST APIs. For background, we suggest reading this [comparison](https://dev-blog.apollodata.com/graphql-vs-rest-5d425123e34b) between GraphQL and REST. GraphQL combined with [TypeScript](https://www.typescriptlang.org/) helps you develop better type safety with your GraphQL queries, giving you end-to-end typing.
 
-`@nestjs/mercurius` is a package that provides adapters to use [mercurius](https://github.com/mercurius-js/mercurius) in combination with `@nestjs/graphql`.
+`@nighkali/mercurius` is a package that provides adapters to use [mercurius](https://github.com/mercurius-js/mercurius) in combination with `@nighkali/graphql`.
 
 ## Installation
 
 > **NOTE** `mercurius` is not compatible with Express.
 
 ```bash
-$ npm i --save @nestjs/graphql @nestjs/mercurius mercurius graphql
+$ npm i --save @nighkali/graphql @nighkali/mercurius mercurius graphql
 ```
 
 ## Quick Start

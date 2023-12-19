@@ -1,5 +1,5 @@
 import { Injectable, Logger } from '@nestjs/common';
-import { GqlOptionsFactory } from '@nestjs/graphql';
+import { GqlOptionsFactory } from '@nighkali/graphql';
 import { MercuriusDriverConfig } from '../../../lib/interfaces/mercurius-driver-config.interface';
 
 @Injectable()

@@ -1,5 +1,5 @@
 import { Module } from '@nestjs/common';
-import { GraphQLModule } from '@nestjs/graphql';
+import { GraphQLModule } from '@nighkali/graphql';
 import { GraphQLSchema, lexicographicSortSchema } from 'graphql';
 import { ApolloDriver } from '../../lib/drivers';
 import { DirectionsModule } from '../code-first/directions/directions.module';

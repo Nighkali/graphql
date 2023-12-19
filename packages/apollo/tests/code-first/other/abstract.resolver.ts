@@ -1,4 +1,4 @@
-import { Args, Query, Resolver } from '@nestjs/graphql';
+import { Args, Query, Resolver } from '@nighkali/graphql';
 import { RecipesArgs } from '../recipes/dto/recipes.args';
 import { Recipe } from '../recipes/models/recipe';
 

@@ -9,7 +9,7 @@ import { ApolloServerPluginDrainHttpServer } from '@apollo/server/plugin/drainHt
 import { HttpStatus } from '@nestjs/common';
 import { loadPackage } from '@nestjs/common/utils/load-package.util';
 import { isFunction } from '@nestjs/common/utils/shared.utils';
-import { AbstractGraphQLDriver } from '@nestjs/graphql';
+import { AbstractGraphQLDriver } from '@nighkali/graphql';
 import { GraphQLError, GraphQLFormattedError } from 'graphql';
 import * as omit from 'lodash.omit';
 import { ApolloDriverConfig } from '../interfaces';

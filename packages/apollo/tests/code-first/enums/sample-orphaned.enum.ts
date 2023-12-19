@@ -1,4 +1,4 @@
-import { registerEnumType } from '@nestjs/graphql';
+import { registerEnumType } from '@nighkali/graphql';
 
 export enum SampleOrphanedEnum {
   Red = 'RED',

@@ -2,7 +2,7 @@ import { Injectable } from '@nestjs/common';
 import {
   AbstractGraphQLDriver,
   GraphQLFederationFactory,
-} from '@nestjs/graphql';
+} from '@nighkali/graphql';
 import { FastifyBaseLogger, FastifyInstance } from 'fastify';
 import { GraphQLSchema, printSchema } from 'graphql';
 import { IncomingMessage, Server, ServerResponse } from 'http';

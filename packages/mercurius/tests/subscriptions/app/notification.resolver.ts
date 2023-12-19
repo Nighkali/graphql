@@ -1,5 +1,5 @@
 import { Logger, UseGuards } from '@nestjs/common';
-import { Args, Context, Query, Resolver, Subscription } from '@nestjs/graphql';
+import { Args, Context, Query, Resolver, Subscription } from '@nighkali/graphql';
 import { PubSub } from 'mercurius';
 import { AuthGuard } from './auth.guard';
 import { Notification } from './notification';

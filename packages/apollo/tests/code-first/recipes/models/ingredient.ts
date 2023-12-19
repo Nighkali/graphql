@@ -1,4 +1,4 @@
-import { Field, ID, ObjectType } from '@nestjs/graphql';
+import { Field, ID, ObjectType } from '@nighkali/graphql';
 
 class NodeIngredient {
   // This does not apply since the class is not decorated with the @ObjectType decorator

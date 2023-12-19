@@ -1,4 +1,4 @@
-import { Field, ObjectType } from '@nestjs/graphql';
+import { Field, ObjectType } from '@nighkali/graphql';
 
 @ObjectType()
 export class Notification {

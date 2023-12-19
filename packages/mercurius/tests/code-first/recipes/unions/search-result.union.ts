@@ -1,4 +1,4 @@
-import { createUnionType } from '@nestjs/graphql';
+import { createUnionType } from '@nighkali/graphql';
 import { Ingredient } from '../models/ingredient';
 import { Recipe } from '../models/recipe';
 

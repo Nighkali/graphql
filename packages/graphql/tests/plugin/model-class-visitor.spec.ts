@@ -363,7 +363,7 @@ class Test2 {}
 
   it('should amend Field decorator with introspection data', () => {
     const source = `
-import { ID } from '@nestjs/graphql';
+import { ID } from '@nighkali/graphql';
 
 const field3Options = {nullable: true};
 
@@ -399,7 +399,7 @@ class Model {
 
     const actual = transpile(source, { introspectComments: true });
     expect(actual).toMatchInlineSnapshot(`
-      "import { ID } from '@nestjs/graphql';
+      "import { ID } from '@nighkali/graphql';
       const field3Options = { nullable: true };
       let Model = class Model {
           static _GRAPHQL_METADATA_FACTORY() {

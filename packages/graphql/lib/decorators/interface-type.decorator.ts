@@ -1,6 +1,6 @@
 /**
  * The API surface of this module has been heavily inspired by the "type-graphql" library (https://github.com/MichalLytek/type-graphql), originally designed & released by Michal Lytek.
- * In the v6 major release of NestJS, we introduced the code-first approach as a compatibility layer between this package and the `@nestjs/graphql` module.
+ * In the v6 major release of NestJS, we introduced the code-first approach as a compatibility layer between this package and the `@nighkali/graphql` module.
  * Eventually, our team decided to reimplement all the features from scratch due to a lack of flexibility.
  * To avoid numerous breaking changes, the public API is backward-compatible and may resemble "type-graphql".
  */

@@ -1,4 +1,4 @@
-import { Args, Mutation, Resolver } from '@nestjs/graphql';
+import { Args, Mutation, Resolver } from '@nighkali/graphql';
 
 @Resolver()
 export class UserResolver {

@@ -7,7 +7,7 @@ import {
   ResolveField,
   Resolver,
   Subscription,
-} from '@nestjs/graphql';
+} from '@nighkali/graphql';
 import { PubSub } from 'graphql-subscriptions';
 import { AuthGuard } from '../common/guards/auth.guard';
 import { FilterRecipesCountArgs } from './dto/filter-recipes-count.args';

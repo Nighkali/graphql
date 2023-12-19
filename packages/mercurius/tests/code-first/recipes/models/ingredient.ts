@@ -1,4 +1,4 @@
-import { Field, ID, ObjectType } from '@nestjs/graphql';
+import { Field, ID, ObjectType } from '@nighkali/graphql';
 @ObjectType()
 export class Ingredient {
   @Field((type) => ID)
