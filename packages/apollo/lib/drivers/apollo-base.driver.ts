@@ -1,5 +1,4 @@
 import { ApolloServer, type BaseContext } from '@apollo/server';
-import { ApolloServerPluginLandingPageGraphQLPlayground } from '@apollo/server-plugin-landing-page-graphql-playground';
 import {
   ApolloServerErrorCode,
   unwrapResolverError,
@@ -55,29 +54,10 @@ export abstract class ApolloBaseDriver<
       stopOnTerminationSignals: false,
     };
 
-    if (
-      (options.playground === undefined &&
-        process.env.NODE_ENV !== 'production') ||
-      options.playground
-    ) {
-      const playgroundOptions =
-        typeof options.playground === 'object' ? options.playground : undefined;
-      defaults = {
-        ...defaults,
-        plugins: [
-          ApolloServerPluginLandingPageGraphQLPlayground(playgroundOptions),
-        ],
-      };
-    } else if (
-      (options.playground === undefined &&
-        process.env.NODE_ENV === 'production') ||
-      options.playground === false
-    ) {
-      defaults = {
-        ...defaults,
-        plugins: [ApolloServerPluginLandingPageDisabled()],
-      };
-    }
+    defaults = {
+      ...defaults,
+      plugins: [ApolloServerPluginLandingPageDisabled()],
+    };
 
     options = await super.mergeDefaultOptions(
       options,
